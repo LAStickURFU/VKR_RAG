@@ -1,0 +1,72 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.db
+*.sqlite3
+indexes/
+.ipynb_checkpoints/
+logs/
+qdrant_data/
+.cursor/
+**/node_modules/
+
+# Temporary files
+temp*.json
+sample_*.json
+*.tmp
+
+# Models and large files
+*.bin
+*.pt
+*.onnx
+*.pth
+*.model
+*.h5
+
+# Frontend build
+frontend/build/
+frontend/dist/
